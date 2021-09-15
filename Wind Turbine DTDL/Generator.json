@@ -1,0 +1,89 @@
+{
+  "@id": "dtmi:com:idtbook:wt:generator;1",
+  "@type": "Interface",
+  "@context": [
+    "dtmi:dtdl:context;2"
+  ],
+  "displayName": "WT Generator",
+  "description": "-",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "GeneratorSerial",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Type",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Number",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "MaxSpeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Voltage",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "GridConn",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "GridFreq",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "Manufacturer",
+      "schema": "string"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "GeneratorSpeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "GeneratorStatorTemp",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "GridFrequency",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "GridVoltPhase1",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "GridVoltPhase2",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "GridVoltPhase3",
+      "schema": "double"
+    },
+    {
+      "@type": "Relationship",
+      "name": "PartOf",
+      "displayName": "PartOf",
+      "minMultiplicity": 0,
+      "maxMultiplicity": 1,
+      "target": "dtmi:com:idtbook:wt:turbine;1"
+    }
+  ]
+}

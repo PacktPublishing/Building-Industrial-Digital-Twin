@@ -1,0 +1,134 @@
+{
+   "@id":"dtmi:com:idtbook:wt:turbine;1",
+   "@type":"Interface",
+   "@context":[
+      "dtmi:dtdl:context;2"
+   ],
+   "displayName":"WT Turbine",
+   "description":"-",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "SerialNo",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "RatedPower",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "FlexPower",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "RatedWindSpeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "CutOutWindSpeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "SurvivalWindSpeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "WindZone",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "WindClass",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "MakeYear",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "GPSLongitude",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "GPSLatitude",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "ActivePower",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "ActiveWarning",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "HydraulicOilPressure",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "PitchAngle",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "FireAlert",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "IceAlert",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "VoltActuatorSwitchWarn",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "AmbientTemp",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "WindDirection",
+      "schema": "string"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "Windspeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "NacelleAngle",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "State",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "name": "MemberOf",
+      "displayName": "MemberOf",
+      "minMultiplicity": 0,
+      "maxMultiplicity": 1,
+      "target": "dtmi:com:idtbook:wt:farm;1"
+    }
+  ]
+}

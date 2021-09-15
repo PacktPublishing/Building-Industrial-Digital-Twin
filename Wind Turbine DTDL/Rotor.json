@@ -1,0 +1,94 @@
+{
+   "@id":"dtmi:com:idtbook:wt:rotor;1",
+   "@type":"Interface",
+   "@context":[
+      "dtmi:dtdl:context;2"
+   ],
+   "displayName":"WT Rotor",
+   "description":"-",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "RotorSerial",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Diameter",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "SweptArea",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "NoBlades",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "MaxSpeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "TipSpeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Type",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Material",
+      "schema": "string"
+    },
+	{
+      "@type": "Property",
+      "name": "Manufacturer",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "PowerDensity1",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "PowerDensity2",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "BladeWeight",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "HubWeight",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "RotorWeight",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "RotorVibration",
+      "schema": "double"
+    },
+    {
+      "@type": "Relationship",
+      "name": "PartOf",
+      "displayName": "PartOf",
+      "minMultiplicity": 0,
+      "maxMultiplicity": 1,
+      "target": "dtmi:com:idtbook:wt:turbine;1"
+    }
+  ]
+}

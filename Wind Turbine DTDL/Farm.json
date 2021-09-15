@@ -1,0 +1,26 @@
+{
+   "@id":"dtmi:com:idtbook:wt:farm;1",
+   "@type":"Interface",
+   "@context":[
+      "dtmi:dtdl:context;2"
+   ],
+   "displayName":"WT Farm",
+   "description":"-",
+   "contents":[
+    {
+      "@type": "Property",
+      "name": "Name",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "GPSLongitude",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "GPSLatitude",
+      "schema": "double"
+    }
+   ]
+}

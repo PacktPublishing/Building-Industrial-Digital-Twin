@@ -1,0 +1,59 @@
+{
+   "@id":"dtmi:com:idtbook:wt:gearbox;1",
+   "@type":"Interface",
+   "@context":[
+      "dtmi:dtdl:context;2"
+   ],
+   "displayName":"WT Gearbox",
+   "description":"-",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "GearboxSerial",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Type",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Stages",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "Ratio",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Manufacturer",
+      "schema": "string"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "GearboxOilLevel",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "GearboxOilTemp",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "BearingTemp",
+      "schema": "double"
+    },
+    {
+      "@type": "Relationship",
+      "name": "PartOf",
+      "displayName": "PartOf",
+      "minMultiplicity": 0,
+      "maxMultiplicity": 1,
+      "target": "dtmi:com:idtbook:wt:turbine;1"
+    }
+  ]
+}
