@@ -11,3 +11,6 @@ It is accessible the Azure Portal where the Digital Twin Service is also configu
 ![enter image description here](https://docs.microsoft.com/en-us/azure/digital-twins/media/includes/azure-digital-twins-explorer-portal-access.png)
 
 Both ADX user interfaces are identical at the time of this update.
+
+## How To Use Azure Digital Twins Explorer
+The web-based version also have improved visualization and query options. Read more on the using ADX [here](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-use-azure-digital-twins-explorer) 
