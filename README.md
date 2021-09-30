@@ -1,6 +1,7 @@
 ﻿# Building Industrial Digital Twins	
 ## Design, develop, and deploy digital twin solutions for real-world industries using Azure Digital Twin
 This is the code repository for [Building Industrial Digital Twins: Design, develop, and deploy digital twin solutions for real-world industries using Azure Digital Twin](https://www.amazon.com/Building-Industrial-Digital-Twins-real-world-ebook/dp/B0958ZHWFP/ref=sr_1_2), published by Packt. 
+![enter image description here](/Images/idtbooksmall.png)
 
 ### Updated information
 
