@@ -2,7 +2,7 @@
 ## Design, develop, and deploy digital twin solutions for real-world industries using Azure Digital Twin
 This is the code repository for [Building Industrial Digital Twins: Design, develop, and deploy digital twin solutions for real-world industries using Azure Digital Twin](https://www.amazon.com/Building-Industrial-Digital-Twins-real-world-ebook/dp/B0958ZHWFP/ref=sr_1_2), published by Packt. 
 <p  align="center">
-<img  alt="Book Image"  src="/Images/idtbooksmall.png"  style="zoom:30%;"  />
+<img  alt="Book Image"  src="/Images/idtbooksmall.png"  style="zoom:55%;"  />
 </p>
 
 ### Updated information
@@ -14,6 +14,8 @@ Free Trial software as used in the book
  - Azure [Free Trial](https://azure.microsoft.com/en-us/free/) 
  - XMPro [Free Trial](https://onxmpro.azurewebsites.net/identity/Register/Form?promotion=true)
 
+### Code Downloads
+Wind Turbine [DTDL (JSON) files](https://github.com/PacktPublishing/Building-Industrial-Digital-Twin/tree/main/Wind%20Turbine%20DTDL)
 ## About The Book
 
 Build your first digital twin MVP and gain first-hand experience of using the technology, the challenges it presents, and its impact on your organization
