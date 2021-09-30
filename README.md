@@ -44,3 +44,8 @@ By the end of this book, you'll have developed the skills to build and deploy yo
 
 ### Who This Book Is For
 The digital twin book is for mid-career subject experts, including engineers and operations managers, building their first prototype (MVP) using digital twin technology. The book will help professionals responsible for mechanical, process, and reliability engineering domains. You don't have to be a developer or programmer, but beginner-level programming skills will be helpful.
+
+## Contact The Authors
+
+ - Slack Channel - [industrialdigitaltwin.slack.com](industrialdigitaltwin.slack.com)
+
