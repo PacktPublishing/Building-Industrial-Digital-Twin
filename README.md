@@ -1,7 +1,3 @@
-## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/B15810?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
------
-For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
-
 ﻿# Building Industrial Digital Twins	
 ## Design, develop, and deploy digital twin solutions for real-world industries using Azure Digital Twin
 This is the code repository for [Building Industrial Digital Twins: Design, develop, and deploy digital twin solutions for real-world industries using Azure Digital Twin](https://www.amazon.com/Building-Industrial-Digital-Twins-real-world-ebook/dp/B0958ZHWFP/ref=sr_1_2), published by Packt. 
